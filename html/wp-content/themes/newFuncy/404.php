@@ -9,25 +9,30 @@
 
 get_header();
 ?>
-<!-- Aqui va mi 404 -->
-<h1>No se ha encontrado lo que estabas buscando pero puedes probar a buscar algo nuevo</h1>
-    <div id="container">
-        <div id="cabecera" class="rojo">
-            <h1>PT</h1>
+    <!-- Aqui va mi 404 -->
+    <div id="pag">
+        <div id="mensaje">
+            <h1>Pagina no encontrada</h1>
+        </div>
+        <div id="buscar">
+            <h2>
+                <?php
+                get_search_form(
+                    array(
+                        'aria_label' => __('404 not found', 'newfuncy'),
+                    )
+                );
+                ?>
+            </h2>
         </div>
         <div>
-            <img src="<?php echo get_stylesheet_directory_uri();?>/images/gon.gif">
+
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gon.gif">
+
         </div>
     </div>
-<h2>
-    <?php
-    get_search_form(
-        array(
-            'aria_label' => __( '404 not found', 'newfuncy' ),
-        )
-    );
-    ?>
-</h2>
+
+
 
 <?php
 get_footer();
