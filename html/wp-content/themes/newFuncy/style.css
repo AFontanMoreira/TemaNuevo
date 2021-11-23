@@ -14,14 +14,18 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 body{
- background-color: #2c0056;
+ background-image: url(https://wallpapercave.com/wp/wp5865038.jpg);
 
 }
-h1{
+h1,h2{
 text-align: center;
  color: white;
 }
-img{
- display:block;
- margin:auto;
+
+img {
+ display: block;
+ margin: auto;
 }
+
+
+
