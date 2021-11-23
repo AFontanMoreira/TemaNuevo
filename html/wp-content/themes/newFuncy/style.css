@@ -20,8 +20,9 @@ body{
 }
 
 #cabecera{
-text-align: center;
+text-align: start;
  color: white ;
+
  background-image: url(https://image.shutterstock.com/image-illustration/anime-background-comic-speed-radial-260nw-1137313334.jpg)
 }
 
@@ -37,7 +38,7 @@ text-align: center;
 
 
 #pie{
- text-align: center;
+ text-align: end;
  color: black;
  text-transform: uppercase;
 }
