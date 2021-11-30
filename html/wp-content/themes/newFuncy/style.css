@@ -16,7 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body{
  margin: 0 auto;
  padding: 0px;
- background-image: url(https://wallpapercave.com/wp/wp5865038.jpg);
+ background-image: url(https://wallpaperaccess.com/full/1098112.jpg);
 }
 
 #cabecera{
@@ -35,12 +35,24 @@ text-align: start;
  text-transform: uppercase;
 }
 
+.imagen{
+ float: left;
+ margin: 10px;
+}
 
+.post{
+ color: #e6e6f5;
+ margin: 10px;
+}
+.post-cat-three{
+ float: contour;
+}
 
 #pie{
- text-align: end;
- color: black;
+ text-align: right;
+ color: #028dfa;
  text-transform: uppercase;
+ margin-right: 10px;
 }
 
 
