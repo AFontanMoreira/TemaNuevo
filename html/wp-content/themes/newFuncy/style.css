@@ -13,52 +13,70 @@ Text Domain: newfuncy
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-body{
- margin: 0 auto;
- padding: 0px;
- background-image: url(https://wallpaperaccess.com/full/1098112.jpg);
+body, html {
+    height: 100%;
+
 }
 
-#cabecera{
-text-align: start;
- color: white ;
-
- background-image: url(https://image.shutterstock.com/image-illustration/anime-background-comic-speed-radial-260nw-1137313334.jpg)
+#todo{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index:2;
+    with:80%;
+    padding:20px;
+    text-align: left;
 }
 
-#pag{
- text-align: center;
- color: white ;
+#cabecera {
+    text-align: start;
+    color: white;
 }
 
-#buscar{
- text-transform: uppercase;
+
+#fondo {
+    background-image: url(https://wallpaperaccess.com/full/1098112.jpg);
+    filter: blur(8px);
+    height: 100%;
+
 }
 
-.imagen{
- float: left;
- margin: 10px;
+#pag {
+    text-align: center;
+    color: white;
 }
 
-.post{
- color: #e6e6f5;
- margin: 10px;
-}
-.post-cat-three{
- float: contour;
+#buscar {
+    text-transform: uppercase;
 }
 
-#pie{
- text-align: right;
- color: #028dfa;
- text-transform: uppercase;
- margin-right: 10px;
+.imagen {
+    float: left;
+    margin: 10px;
+}
+
+.post {
+    color: #e65eff;
+    margin: 10px;
+}
+
+.post-cat-three {
+    float: contour;
+
+}
+
+#pie {
+    text-align: right;
+    color: #028dfa;
+    text-transform: uppercase;
+    margin-right: 10px;
 }
 
 
 img {
- display: block;
- margin: auto;
+    display: block;
+    margin: auto;
 }
 
 
