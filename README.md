@@ -42,7 +42,7 @@ Un ejemplo de una de las paginas seria esta:
 ![Texto alternativo](/html/wp-content/themes/regina-lite-child/images/pagina1-tema.png)
 
 En esta pagina como en las demas cambie el color de fondo del titulo de negro a azul desde el css que te proporciona el propio WP.
-Para poder hacerlo habria que inspeccionar el elemento que quieres modificar y una vez localizado donde se modifica podemos utilizar esa referencia ya que lo modificado en el css del WP se superpone a todos los styles del tema
+Para poder hacerlo habria que inspeccionar el elemento que quieres modificar y una vez localizado donde se modifica podemos utilizar esa referencia ya que lo modificado en el css del WP se superpone a todos los styles del tema, en este caso se llamaba "page-header".
 
 ![Texto alternativo](/html/wp-content/themes/regina-lite-child/images/css-backend.png)
 
